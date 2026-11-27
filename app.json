@@ -1,7 +1,7 @@
 {
   "id": "element-web",
-  "recipe": "element-v1",
-  "version": "1.12.36.1",
+  "recipe": "element-v2",
+  "version": "1.12.36.2",
   "publisher": "Lu Yifei",
   "help": "https://github.com/LuYifei-TOS-Apps/tos-element-web#readme",
   "official": "https://github.com/element-hq/element-web",
@@ -13,14 +13,14 @@
       "auth": "Element and contributors",
       "descript": "Use a Matrix account to join rooms and exchange messages from your browser.",
       "important": "Use HTTPS for encrypted messaging and calling. The client connects to the selected Matrix homeserver.",
-      "release_note": "Initial TOS package for Element Web 1.12.36."
+      "release_note": "Declare the non-root numeric identity for every container."
     },
     "zh-cn": {
       "name": "Element Web",
       "auth": "Element 及贡献者",
       "descript": "在浏览器内使用 Matrix 账号加入房间和收发消息。",
       "important": "请通过 HTTPS 使用加密消息与通话。客户端会连到所选的 Matrix 主服务器。",
-      "release_note": "Element Web 1.12.36 的首个 TOS 安装包。"
+      "release_note": "为每个容器声明非 root 的数字 UID 和 GID。"
     }
   }
 }
